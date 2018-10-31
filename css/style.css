@@ -1,0 +1,103 @@
+*{margin: 0;padding: 0;  }
+html{
+  background-color: purple;
+  }
+  .header{
+    background-color: black;height: 160px;width: 100%;
+    }
+.menu{
+  padding-top: 3%;  padding-left: 5%;
+  word-spacing:45px;
+  float: left;
+  font-family: 'Oswald', sans-serif;font-size: 115%;
+}
+a{
+  text-decoration: none;color: white;
+}
+a:hover{
+  color:#FC9779;
+}
+li:hover{
+  transform:scale(1.2);
+  /*border-bottom: 1px solid white ;*/
+  }
+.menu li{
+  display: inline-block;
+  margin-bottom: 90px;
+}
+.title{
+  padding-top: 0px;
+  float: left;
+  }
+.info{
+  color:white;
+  font-family: 'Oswald', sans-serif;
+  font-size: 115%;
+  float:right; padding-top: 3%; padding-right: 5%;
+}
+#the{
+padding-top:15%;padding-left:165%;
+font-family: 'Oswald', sans-serif;
+font-size: 150%;color:white;
+}
+#color{
+font-family: 'Oswald', sans-serif;
+font-size: 440%;color: #FC9779;
+padding-left: 130%;
+}
+#color:hover{
+  color:purple;
+}
+.wh{
+display: flex;
+font-family: 'Cinzel', serif;
+color: white;font-size:60%;
+padding-left: 130%;
+}
+.where{color:#6B9DA5}
+.art{color:#E2E2B6}
+.lives{color:#FF7B9D}
+
+.background-picture{
+  height: 500px; width: 100%;
+  background: linear-gradient(to right, rgba(0,0,0,0.7) 100%, rgba(0, 0, 0,.7) 100%), url(back1.jpg);
+  display: flex;
+  }
+
+.text{
+  color: #FC9779;
+  text-shadow: 5px 2px 5px purple,
+               6px 2px 14px rgba(255, 255, 255, 0.2);
+
+  font-family: 'Oswald', sans-serif;font-size: 480%;
+  padding-top: 7%;padding-left: 10%;
+  }
+  .square{
+  background-color: #FC9779; width: 285px;height: 285px;
+  margin-top: 100px;margin-left: 300px;
+  font-family: 'Oswald', sans-serif; font-size: 34px;
+  padding-left: 35px;padding-top: 10px;
+  }
+  #monday{
+    background-color: black;width:240px;height:45px;
+    text-align: center;padding-top: 1px;
+    margin-top:20px;margin-bottom: 5px;
+    color: white;
+  }
+  #time{
+    background-color: black;width: 45%;height:45px;
+    text-align: center;padding-top: 7px;
+    margin-bottom: 5px;
+    color: white;
+    }
+  #place{
+    background-color: black;width:260px;height:45px;color: white;
+    padding-top: 7px;padding-left: 15px;
+    margin-bottom: 30px;
+    }
+    #button{
+      background-color: white;color black;
+      width: 160px;height: 35px;
+      padding-bottom: 10px;
+      text-align: center;
+    }
